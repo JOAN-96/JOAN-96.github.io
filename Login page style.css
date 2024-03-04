@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    height: 80px;
+    text-align: center;
+}
+
+.header h6{
+    color: grey;
+}
+
+.user-account{
+    background-color: gray;
+    height: 127px;
+    width: 628px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+}
+
+.account ul{
+    list-style: none;
+}
+
+.user-account-image{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.user-login ul{
+    list-style: none;
+    
+}

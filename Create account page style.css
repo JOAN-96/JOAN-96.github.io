@@ -1,0 +1,85 @@
+body{
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    height: 80px;
+    text-align: center;
+}
+
+.header h6{
+    color: grey;
+}
+
+span{
+    font-size: 14px;
+}
+
+.contactform{
+    align-content: center;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+.contactform input{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 428px;
+    height: auto;
+    background-color: #d9d9d9;
+    color: black;
+    border-radius: 8px;
+    outline: none;
+    font-size: 18px;
+}
+
+::placeholder{
+    font-size: 14px;
+}
+
+.contactform ul{
+    list-style: none;
+    display: flex;
+    justify-content: stretch;
+    align-content: center;
+    gap: 24px;
+}
+
+.contactform input:hover{
+    background-color: white;
+}
+
+#companyposition{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 460px;
+    height: auto;
+    background-color: #d9d9d9;
+    outline: none;
+    border-radius: 8px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    width: 428px;
+    height: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    align-self: center   ;
+    font-size: 18px;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deji Automobile Technician Works - Account Creation</title>
+    <link rel="stylesheet" href="Create account page style.css">
+    <link rel="stylesheet" href="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/add/default/24px.svg" />
+</head>
+
+<body>
+    
+    <img src="Small Logo low-fi.png" id="small-logo" width="40px" height="40px"/>
+
+    <header class="header">
+        <h2>Account Creation</h2>
+        <h6>This account will give you full access to the software usage, as such, only the business owner or the business representative is advised to to set up this account.</h6>
+    </header>
+
+    <div class="contactform">
+        <ul>
+            <li>
+                <span>Surname</span>
+                <br>
+                <input type="text" placeholder="Enter Your Surname" required="required"/>
+            </li>
+
+            <br>
+
+            <li>
+                <span>First Name</span>
+                <br>
+                <input type="text" placeholder="Enter Your Name" required="required"/>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <span>Phone Number</span>
+                <br>
+                <input type="text" placeholder="Enter Your Phone Number" required="required" minlength="11" maxlength="11"/>
+            </li>
+
+            <br>
+
+            <li>
+                <span>Email Address</span>
+                <br>
+                <input type="text" placeholder="Enter Your Email Address" required="required, @"/>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <span>Password</span>
+                <br>
+                <input type="number, text"  placeholder="Set Your Password" required="required" minlength="8" maxlength="16"/>
+            </li>
+
+            <br>
+
+            <li>
+                <span>Re-enter Password</span>
+                <br>
+                <input type="number, text"  placeholder="Re-enter Your Set Password" required="required" minlength="8" maxlength="16"/>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <span>Position-in-Company</span>
+                <br>
+                <select id="companyposition" required="required">
+                    <option value="SelectYourPosition" style="color: gray">Select Your Position</option>
+                    <option value="CEO">C.E.O</option>
+                    <option value="ExecutiveAssistant">Executive Assistant</option>
+                    <option value="Secretary">Secretary</option>
+                    <option value="Supervisor">Supervisor</option>
+                    <option value="Apprentice">Apprentice</option>
+                </select>
+            </li>
+
+            <br>
+
+            <li>
+                <span>Add Image</span>
+                <span class="material-symbols-outlined">&#xE8B6;</span>
+            </li>
+        </ul>
+    </div>
+
+    <button title="Click to create your account" class="button" ><b>Create Account</b></button>
+
+</body>
+
+</html>
